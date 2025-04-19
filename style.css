@@ -1,0 +1,223 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Segoe UI", BlinkMacSystemFont, "Korolev";
+}
+
+  .header-section{
+    width: 100%;
+    height: 118px;
+    background-color: #00d2c6;
+    position: fixed;
+    border-bottom: 1px solid;
+    border-color: #fff;
+  }
+
+  #logo{
+    width: 100px;
+    height: 86px;
+    margin: 15px;
+}
+  
+.header-left{
+    width: 60%;
+    float: left;
+}
+
+.header-right{
+    width: 40%;
+    float: left;
+    align-items: center;
+    display: flex;
+}
+.first{
+    width: 25%;
+    padding-top: 50px;
+    float: left;
+
+    
+}
+.second{
+    width: 15%;
+    padding-top: 54px;
+    float: right;
+
+    
+}
+
+
+
+a{
+
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    padding-left: 14px;
+    
+}
+
+.imgheader-full{
+    background: url("tropical-header.webp");
+     width: 100%;
+    height: 800px;
+    object-fit: fill;
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+
+.img-full1{
+    background: url("image1.webp");
+     width: 100%;
+    height: 800px;
+    object-fit: fill;
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 350px 250px  500px 500px;
+}
+
+.img-full2{
+    background: url("image2.webp");
+     width: 100%;
+    height: 800px;
+    object-fit: fill;
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 350px 250px  500px 500px;
+    margin-top: -50px;
+
+}
+
+  
+footer{
+    width: 100%;
+    height: 145px;
+    background-color: #3e3e3e;
+    margin-top: -50px;
+    padding-left: 310px;
+    padding-top: 11px;
+}
+
+.link-footer{
+    padding: 10px;
+    font-size: 12px;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+.main{
+    width: 100%;
+}
+.content{
+    width: 500px;
+    height: 200px;
+    background-color: #3e3e3e;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+
+
+}
+
+h1{
+    padding-top: 40px;
+    padding-left: 190px;
+    text-transform: uppercase;
+}
+
+#h1-1{
+    padding-top: 40px;
+    padding-left: 160px;
+    text-transform: uppercase;
+}
+
+.content-p{
+    padding-top: 20px;
+    padding-left: 70px;
+    font-size: 18px;
+
+}
+.content-p1{
+    padding-top: 20px;
+    padding-left: 36px;
+    font-size: 16px;
+
+}
+  
+  
+
+.content-h1{
+    width: 45%;
+    height: 200px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #f1f1f1;
+    padding-top: 280px;
+    padding-left: 90px;
+    text-transform: uppercase;
+}
+
+button{
+    width: 160px;
+    height: 45px;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color:#fafafa;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+}
+
+.button-1{
+    width: 160px;
+    height: 45px;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color:#fafafa;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.button-2{
+    width: 160px;
+    height: 45px;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color:#fafafa;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.copyright{
+    margin-left: 160px;
+    color: #f1f1f1;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+.icon{
+    color: #fafafa;
+    font-size: 25px;
+}
